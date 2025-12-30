@@ -1,0 +1,28 @@
+# --- .gitignore for AtCoder (Python & C) ---
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# C / C++ / Binary
+*.exe
+*.out
+*.o
+*.dll
+*.so
+
+# VS Code settings (個人の設定は共有しないのがマナー)
+.vscode/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Input/Output text files (AtCoderのテストケースなど)
+input.txt
+output.txt
+*.in
+*.out
+test/
