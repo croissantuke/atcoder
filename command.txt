@@ -1,0 +1,6 @@
+notepad $PROFILE
+. $PROFILE
+
+run a
+g++ a.cpp -o a.exe  
+cat in.txt | ./a.exe
