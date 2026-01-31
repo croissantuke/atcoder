@@ -2,5 +2,6 @@ notepad $PROFILE
 . $PROFILE
 
 run a
-g++ a.cpp -o a.exe  
-cat in.txt | ./a.exe
+
+g++ a.cpp -o main.exe  
+>> cat in.txt | ./main.exe
