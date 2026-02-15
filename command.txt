@@ -4,4 +4,12 @@ notepad $PROFILE
 run a
 
 g++ a.cpp -o main.exe  
->> cat in.txt | ./main.exe
+cat in.txt | ./main.exe
+
+"a".."g" | ForEach-Object { New-Item "$_.cpp" }; ni in.txt, in2.txt
+
+acc new abc300 （問題フォルダ作成）
+cd abc300/a （フォルダに移動）
+コードを書く
+oj t （サンプルケースで自動テスト）
+acc s （提出）
